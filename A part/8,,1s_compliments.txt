@@ -1,0 +1,10 @@
+;8. 1s complements of 16bit number
+lxi h,0000h
+mov a,m
+cma
+sta 0002h
+inx h
+mov a,m
+cma
+sta 0003h
+hlt

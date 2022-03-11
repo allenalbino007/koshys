@@ -1,0 +1,13 @@
+; To find largest among n number
+mvi c,05h
+lxi h,0000h
+mov a,m
+dcr c
+repeat: inx h
+cmp m
+jnc next
+mov a,m
+next: dcr c
+jnz repeat 
+sta 0006h
+hlt

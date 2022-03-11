@@ -1,0 +1,6 @@
+; 2s complemenet of  8 bit number
+lda 0000h
+cma
+inr a
+sta 0001h
+hlt

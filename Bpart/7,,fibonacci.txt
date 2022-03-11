@@ -1,0 +1,15 @@
+;7. program to generate fibonacci series 
+mvi c,07h
+lxi h,0000h
+mov a,m
+inx h
+mov d,m
+loop: add d
+daa 
+inx h
+mov m,a
+mov a,d
+mov d,m
+dcr c
+jnz loop
+hlt

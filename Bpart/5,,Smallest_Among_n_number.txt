@@ -1,0 +1,13 @@
+; smallest among  n number
+mvi c,06h
+lxi h,0000h
+mov a,m
+dcr c
+repeat: inx h
+cmp m
+jc next
+mov a,m
+next: dcr c
+jnz repeat
+sta 0008h
+hlt

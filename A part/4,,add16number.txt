@@ -1,0 +1,6 @@
+lhld 0000h
+xchg
+lhld 0002h
+dad d;
+lhld 0004h
+hlt

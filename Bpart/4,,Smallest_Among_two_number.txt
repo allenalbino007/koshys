@@ -1,0 +1,9 @@
+;4.To find smallest among two numbers
+lxi h,0000h
+mov a,m
+inx h
+cmp m
+jc next
+mov a,m
+next: sta 0003h
+hlt

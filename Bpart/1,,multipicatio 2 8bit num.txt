@@ -1,0 +1,15 @@
+;Multiplication of two 8bit number
+mvi c,03
+mvi d,03
+xra a
+mov b,a
+loop: add c
+daa 
+jnc next
+inr b
+next: dcr d
+jnz loop
+sta 0003h
+mov a,b
+sta 0004h
+hlt

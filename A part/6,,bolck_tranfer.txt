@@ -1,0 +1,11 @@
+;6. block of data transfer
+mvi c,5
+lxi h,0000h
+lxi d,0005h
+cont: mov a,m
+stax d
+inx h
+inx d
+dcr c
+jnz cont
+hlt

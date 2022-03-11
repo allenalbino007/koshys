@@ -1,0 +1,10 @@
+; number is even or odd
+lda 0000h
+rar
+jc loop
+mvi a,00h
+sta 0002h
+hlt
+loop: mvi a,01h
+sta 0004h
+hlt

@@ -1,0 +1,12 @@
+;5.subtraction of  two 16 bit number
+lhld 0002h
+xchg
+lhld 0004h
+mov a,l
+sub c
+mov l,a
+mov a,d
+sub h
+mov h,a
+lhld 0006h
+hlt

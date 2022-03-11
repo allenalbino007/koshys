@@ -1,0 +1,13 @@
+; addition of two bcd number
+lxi h,000h
+mvi c,00
+mov a,m
+inx h
+add m
+daa
+jnc nc
+inr c
+nc: sta 0006h
+mov a,c
+sta 0007h
+hlt

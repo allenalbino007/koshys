@@ -1,0 +1,9 @@
+;2. largest among two number
+lxi h,0000h
+mov a,m
+inx h
+cmp m
+jnc next 
+mov a,m
+next: sta 0003h
+hlt

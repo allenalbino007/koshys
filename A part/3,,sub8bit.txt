@@ -1,0 +1,11 @@
+mvi c,00
+lda 0004
+mov b,a
+lda 0005
+sub b
+jnc skip
+inr c
+skip: sta 0006
+mov a,c
+sta 0007
+hlt

@@ -1,0 +1,15 @@
+;9. addition of n byte number
+mvi c,04h
+xra a
+mov b,a
+lxi h,0000h
+loop: add m
+jnc next
+inr b
+next: inx h
+dcr c
+jnz loop
+sta 0006h
+mov a,b
+sta 0007h
+hlt
