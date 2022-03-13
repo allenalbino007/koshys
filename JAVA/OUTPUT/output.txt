@@ -1,0 +1,148 @@
+A-PART
+1.factoiral?
+output
+Factorial of 7 is 5040
+Factorial of 8 is 40320
+Factorial of 9 is 362880
+Factorial of 10 is 3628800
+
+2. prime number?
+OUTPUT 
+prime numbers between 11 and 20 are
+11
+13
+17
+19
+
+3.Sorting?
+OUTPUT
+before sorting
+8
+3
+6
+5
+9
+after sorting
+3
+5
+6
+8
+9
+descending order
+9
+8
+6
+5
+3
+
+4.String operation
+OUTPUT
+the strings are hello and world 
+the length of hello is 5
+the length of world is 5
+the concantenation of two strings :Helloworld 
+first charater of hello:H
+the Uppercase of Hello is :HELLO
+the lowercase of world is :world
+the letter e occurs at the position 1 in hello
+substring of hello starting from index 2 and ending at 4 is :11
+replacing 'e' with 'o' in Hello: Hollo
+Hello and World are not same
+
+5.Area 
+OUTPUT
+Enter the radius 
+50
+Area of circle =7853.98163
+enter the side
+60
+Area of square : 3600.0
+Enter the width
+25
+Enter the highet
+15
+Area of rectangle : 375.0
+Enter the base 
+30
+enter the heighet
+20
+Area of triangle=300.0
+
+6.construor overloading
+OUTPUT
+Initalized with default construter the value of 1 box is 18
+Initalizeed with parameterized constructor having 2 params
+volume of box 2 is 400
+initlaized with parameterized constructor having 3 params
+volume of box 3 is :6000
+
+8.Bonous calculator 
+OUTPUT
+Department Basic Salary Bonus Toatal salary
+-------------------------------------------
+accounts Dept 1000.0 	2000.0	12000.0
+sales    Dept 2000.0 6000.0 	26000.0
+
+B-PART
+
+1.Sum of digits 
+OUTPUT
+Enter numbers:99
+sum of digits is :18
+Enter number: 101
+Sum of digits is :2
+
+2.demontrate this key world 
+OUTPUT 
+i=100
+j=200
+
+3.multilevel inheritence 
+OUTPUT
+called zero argument construcor of first
+called zero argument construcor of second
+called zero argument construcor of third
+called zero argument construcor of first
+called zero argument construcor of second
+called zero argument construcor of third
+
+4.copy elemets from array
+OUTPUT
+the elemets of the array 1 
+10
+20
+30
+40
+50
+the elements of the Array 2
+10
+20
+30
+40
+50
+
+5.demo command line
+OUTPUT
+Insufficent numbers of command line arguments 
+
+6.demo vector and operation
+OUTPUT
+Initially the vector contents[c,c++,java,VB6]
+The last elements at second position :Java
+After inserting contents [c#,c,python,c++,java,VB6]
+after removing elements at 3 the contents are [C#,C,python,Java]
+
+7.demo wrapper
+OUTPUT
+The Primitive value of i1=100
+The Primitive value of i2 100
+The value of num 2=1234
+The string value of i1=100
+The string value of i1=200
+
+8.Multiple inheritence using interface
+OUTPUT
+Implementing function X
+Implementing function M
+Implementing function P
+
